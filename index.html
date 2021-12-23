@@ -9,7 +9,18 @@
 </head>
 <body>
   <h1 class="main-heading">Historical Places In India 😎</h1>
-  <div class="card">
+  <div class="selection">
+    <h2>Select the place you want to read about!</h2>
+    <div class="btns">
+      <button class="btn">Taj Mahal</button>
+      <button class="btn">Red Fort</button>
+      <button class="btn">Jallianwala Bagh</button>
+      <button class="btn">Victoria Memorial</button>
+      <button class="btn">Fatehpuri Sikri</button>
+    </div>
+  </div>
+  <div id="emptydiv"></div>
+  <div class="card invisible" id="tajmahal">
     <div class="index-number"><h3>1</h3></div>
     <h2 class="heading">Agra, Taj Mahal</h2>
     <img class="place-img" src="./img/sunrise-at-taj-mahal--agra--uttar-pradash--india-583682538-5b91840bc9e77c0050bdc67b.jpg" alt="taj mahal image">
@@ -29,7 +40,7 @@
       Built In: 1648<br />
     </p>
   </div>
-  <div class="card">
+  <div class="card invisible" id="redfort">
     <div class="index-number"><h3>2</h3></div>
     <h2 class="heading">Red Fort, Delhi</h2>
     <img class="place-img" src="./img/3bc44fa9b5181044295258e927a6dcf5.jpg" alt="taj mahal image">
@@ -46,7 +57,7 @@
       Built In: 1639<br/>
     </p>
   </div>
-  <div class="card">
+  <div class="card invisible" id="jallianwalabagh">
     <div class="index-number"><h3>3</h3></div>
     <h2 class="heading">Jallianwala Bagh, Punjab</h2>
     <img class="place-img" src="./img/Jallianwala Bagh Getty-903190904-1550690235.jpg" alt="taj mahal image">
@@ -62,7 +73,7 @@
       Built In: 1961 (memorial)<br/>
     </p>
   </div>
-  <div class="card">
+  <div class="card invisible" id="victoriamemorial">
     <div class="index-number"><h3>4</h3></div>
     <h2 class="heading">Victoria Memorial, Kolkatai</h2>
     <img class="place-img" src="./img/Victoria-Memorial-Kolkata-An-iconic-marble-structure-of-the-British-era-FB-1200x700-compressed.jpg" alt="taj mahal image">
@@ -81,10 +92,10 @@
       Built In: 1921<br/>
     </p>
   </div>
-  <div class="card">
+  <div class="card invisible" id="fatehpurisikri">
     <div class="index-number"><h3>5</h3></div>
     <h2 class="heading">Fatehpuri Sikri, Uttar Pradesh</h2>
-    <img class="place-img" src="./img/Fatehpur Sikri Fast-Track Ticket.jpg" alt="taj mahal image">
+    <img class="place-img" src="./img/Fatehpur Sikri Fast-Track Ticket.jpg" alt="image">
     <p class="para">
       One of the historical tourist places in India, the Red Fort was constructed over ten years from 1638 to 1648. This fort was constructed when Shah Jahan shifted the capital from Agra to Delhi and it was then known as the Qila-e-Mubarak. This octagonal fort is one of the most famous historical places in north India and is also the site where the President gives his speech on Independence Day. The Red fort is truly remarkable and one of the best historical places in India.
     </p>
@@ -101,5 +112,7 @@
   <footer class="footer">
     Created By Me 😉
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
